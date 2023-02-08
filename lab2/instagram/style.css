@@ -1,0 +1,241 @@
+.screen{
+    display: block;
+}
+.main{
+    width : 1468px;
+    height: 593.150px;
+    padding-bottom: 32px;
+    margin-top: 32px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    vertical-align: baseline;
+    direction: ltr;
+}
+.images{
+    width: 280px;
+    height: 593.150px;
+    margin-right: 32px;
+    margin-bottom: 12px;
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yr/r/fzBXVxs22bH.png);
+    background-size: 468.32px,634.15px;
+    display: block;
+    box-sizing: content-box;
+    background-repeat: no-repeat;
+    align-items: stretch;
+    position: relative;
+    padding-top: 28px;
+    padding-left: 158px;
+    /*padding-left: 190px;
+    margin-right: 78px;
+    */
+}
+.info{
+    width: 350px;
+    height: 581.159px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 12px;
+}
+#photo{
+    width: 250px;
+    height: 538.84px;
+    position: absolute;
+}
+.logo{
+    width: 178px;
+    height: 70px;
+    margin-top: 18.5px;
+    margin-bottom: 12px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.maininfo{
+    width:350px;
+    margin-top: 18px;
+}
+input{
+    display: block;
+    width: 266.8px;
+    height: 20px;
+    padding: 9px 0 7px 8px;
+    margin-top: 6px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid rgb(219, 219, 219);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color:#1c1e21;
+    font-size: 13px;
+}
+#logo{
+    width: 178px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    width: 300px;
+    height: 32px;
+    margin: 14px 40px 8px 40px;
+    display: flex;
+}
+
+#in{
+    width: 278px;
+    height: 32px;
+    padding: 0 0 0 0;
+    background-color: rgb(71, 175, 255);
+    border-radius: 10px;
+    border: none;
+    font-family: Helvetica Arial sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color:#ffffff;
+}
+.or{
+    width: 278px;
+    height: 14.998px;
+    align-items: center;
+    display: flex;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(38,38,38);
+    margin: 18px 45px 18px 45px ;
+    color: rgb(152,152,152);
+    font-weight: 450;
+}
+.kk{
+    width: 29.050px;
+    height: 14.998px;
+    margin: 0 18px;
+    display: block;
+}
+.line1{
+    height: 1px;
+    width: 102.675px;
+    background-color: rgb(219, 219, 219);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.facebook{
+    margin: 8px 45px 8px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Helvetica Arial sans-serif;
+    color: rgb(211,211,211);
+}
+.facebook a{
+    color:#385185;
+    font-weight: 450;
+}
+a{
+    text-decoration: none;
+}
+.forgot{
+    width: 348.4px;
+    height: 16px;
+    margin-top: 24px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 14px;
+}
+.forgot a{
+    color:#385185;
+    font-weight: 450;
+}
+.need{
+    width: 350px;
+    height: 377.387px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    align-items: center;
+    padding-top: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+.reg{
+    width: 348.4px;
+    height: 41px;
+    padding: 10px 0;
+    border: 1px solid rgb(219, 219, 219);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+.reg a{
+    color:#0095F6;
+    font-family: Helvetica Arial sans-serif;
+    font-weight: 500;
+}
+.inst{
+    width: 310px;
+    height: 11px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px 20px 10px 20px;
+}
+.instimg{
+    width: 350px;
+    height: 43.6px;
+    margin: 17px 0 10px 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    direction: ltr;
+}
+#google{
+    width: 134.28px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 8px;
+}
+#micro{
+    width: 110.76px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+footer ol{
+    display: flex;
+    margin-left: 145px;
+    margin-right: 145px;
+    flex-wrap: wrap;
+    list-style-type: none; /*көп затты өшіріп тастайды*/
+    padding: 10px 0;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+footer ol li{
+    padding-right: 20px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #737373;
+}
+
+footer ol li a{
+    text-decoration: none;
+    color: #737373;
+}
+footer ol li a:hover{
+    text-decoration: underline;
+}
