@@ -1,0 +1,7 @@
+<p>categories works!</p>
+<div class="category-table">
+    <div *ngFor="let category of categories">
+        <a [routerLink]="['/category', category.id, 'products']">{{category.name}}</a>
+        <img src="{{category.img}}" alt="">
+    </div>
+</div>
