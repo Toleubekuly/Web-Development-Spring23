@@ -1,0 +1,18 @@
+<h3 *ngIf="!loaded">Album photos are loading...</h3>
+
+<div class="page" *ngIf="loaded">
+  <div style="display: flex; align-items: center">
+    <div class="return-back" >
+      <a [routerLink]="['/albums', albumID]">
+        <i>←</i>
+      </a>
+    </div>
+    <h1 style="text-align: center">Album #{{albumID}} photos</h1>
+  </div>
+
+  <div class="photos">
+    <div *ngFor="let photo of photos" class="photo">
+      <img src="{{photo.url}}" alt="album-img">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+.detail{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  .return-back a{
+    text-decoration: none;
+  }
+  .return-back i{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 100%;
+    transition: .4s;
+  }
+  
+  .return-back i:hover{
+    background-color: black;
+    color: white;
+  }
