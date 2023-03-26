@@ -22,7 +22,7 @@ export class AlbumDetailComponent {
   }
 
   ngOnInit() {
-    this.route.paramMap.subscribe((params) =>{
+    this.route.paramMap.subscribe((params) => {
       const id = Number(params.get('id'));
 
       this.loaded = false;
